@@ -7,7 +7,7 @@ export const StackRoutes: Route<NativeStackNavigationOptions>[] = [
   {
     name: '/',
     component: TabsScreen,
-    options: {headerShown: false, title: 'Home'},
+    options: {headerShown: false, title: 'Tab 1'},
   },
   {
     name: '/example-fade',
@@ -46,7 +46,7 @@ export const StackRoutes: Route<NativeStackNavigationOptions>[] = [
     component: ExampleScreen,
     options: {
       animation: 'none',
-      title: 'No Transition',
+      title: 'No Animation',
     },
   },
   {
